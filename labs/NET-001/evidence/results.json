@@ -1,0 +1,18 @@
+{
+  "Lab": "NET-001",
+  "Execution": "Agent-assisted local Windows lab; authorized by the account owner",
+  "CollectedUtc": "2026-11-02T19:11:25.3339138Z",
+  "ValidTarget": "example.com",
+  "DnsARecordCount": 2,
+  "DnsAddressReturned": true,
+  "TcpPort": 443,
+  "TcpAttempts": [
+    true,
+    true
+  ],
+  "HttpsStatusCode": 200,
+  "HttpsContentReceived": true,
+  "NegativeTarget": "network-lab.invalid",
+  "NegativeDnsResult": "NameDoesNotExist",
+  "Sanitization": "Allowlisted summary only. No IP addresses, MACs, DNS server addresses, usernames, computer names, or credentials."
+}
